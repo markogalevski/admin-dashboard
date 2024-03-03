@@ -107,7 +107,7 @@ img.icon {
     position: relative;
 }
 
-.search_and_profile {
+.search-and-profile {
     grid-row: 1 / 2;
     display: flex;
     flex-direction: row;
@@ -117,10 +117,10 @@ img.icon {
     gap: 20px;
 }
 
-.search_and_profile .icon {
+.search-and-profile .icon {
     padding-left: 40px;
 }
-.search_and_profile input {
+.search-and-profile input {
    flex: 1; 
    margin-left: 10px;
    border-radius: 12px;
@@ -132,7 +132,7 @@ img.icon {
 }
 
 
-.greeting_and_create {
+.greeting-and-create {
     margin: 20px 60px 40px -20px;
     grid-row: 2 / 3;
     display: flex;
@@ -162,7 +162,7 @@ img.icon {
   grid-column: 2 / 3;
 }
 
-.greeting div.name_and_tag {
+.greeting div.name-and-tag {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
@@ -333,20 +333,20 @@ button {
     grid-column: 1 / 2;
 }
 
-.trender div.user_tag {
+.trender div.user-tag {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
     font-size: 0.7rem;
     padding-top: 5px;
 }
 
-.trender div.project_name {
+.trender div.project-name {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     font-size: 0.7rem;
     color: var(--card-grey);
     padding-top: 0px;
     text-overflow: ellipsis;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
 }
  
